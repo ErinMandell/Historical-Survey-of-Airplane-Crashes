@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="static/css/style.css">
+  <!-- <link rel="stylesheet" href="static/css/style.css"> -->
 </head>
 
 <body>
@@ -30,10 +30,11 @@
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visuals</a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="/Visual1.html">Heatmap</a>
-    <a class="dropdown-item" href="/Visual2.html">GeoMaps</a>
+    <a class="dropdown-item" href="/Visual2.html">MarkerClusters</a>
     <a class="dropdown-item" href='/Visual3.html'>Timeline</a>
     <a class="dropdown-item" href="/Visual4.html">CrashesByOperator</a>
-    <a class="dropdown-item" href="/Visual5.html">MarkerClusters</a>
+    <a class="dropdown-item" href="/Visual5.html">Empty</a>
+    <a class="dropdown-item" href="/Visual6.html">PinsWithSelector</a>
   </div>
     </li>
       <li class="nav-item">
@@ -45,52 +46,4 @@
   </ul>
 </div>
 </nav>
-<div class="container">
-  <div class="jumbotron justify-content-center">
-      <h1 class="display-4">       Project Summary</h1>
-  </div>
-  <div class="row">
-    <div class = "col-med-4">
-  <div>  
-    <h3> Project Objective:</h3> 
-    <p>
-      Analyze the number of airplane crashes and fatalities throughout the world, from 1908 to 2009.
-    </p>
-    <!-- <a target="_blank" href="/geoData">Data</a>  -->
-    <br>
-      <h4>
-        Heatmap: 
-      </h4>
-      <p>
-        Graphical representation of data, where colors are used to represent the concentration of data. This map also has two layers, which the user can choose between – street and light maps.
-      </p>
-    <br>
-      <h4>
-        GeoMaps: 
-      </h4>
-      <p>
-        We have a leaflet map sourced from our Primary Dataset which allows the user to select which crash data to display.  The user may then zoom in and view details about each crash.
-      </p>
-    <br>
-      <h4>
-        Timeline:
-      </h4>
-      <p>
-        This is an interactive timeline of plane crashes over the last century.  The user can zoom out to see the year of each crash.  Apexcharts is the new javascript library that we used.
-      </p>
-    <br>
-      <h4>
-        Crashes by Operator:
-      </h4>
-      <p>
-        Our second data source had a nice summary of the history of crashes by operator.  We have two plotly charts showing the operators with the most fatalities in history, and another showing that Military - related crashes account for 43% of fatalities in history, globally.
-      </p>
-    <br>
-      <h4>
-        Marker Clusters:
-      </h4>
-      <p>
-        An interactive world map, which visualizes the number of airplane crashes by location. The marker clusters work at different zoom levels. When a user views the map at a high zoom level, the individual markers show on the map, showing the specific locations of the crashes. As the map is zoomed out, the markers gather together into clusters to make the viewing of the map easier.
-      </p>
-  </div>
 </body>
